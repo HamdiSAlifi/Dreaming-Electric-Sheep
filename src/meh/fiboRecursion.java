@@ -1,6 +1,6 @@
-package test;
+package meh;
 
-public class fiboReccursion {
+public class fiboRecursion {
 	
 	// Global counter equivalent
 	static int count = 2;

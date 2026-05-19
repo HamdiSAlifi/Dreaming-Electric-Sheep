@@ -1,4 +1,4 @@
-package test;
+package meh;
 
 //Import the HashSet class
 import java.util.HashSet;
