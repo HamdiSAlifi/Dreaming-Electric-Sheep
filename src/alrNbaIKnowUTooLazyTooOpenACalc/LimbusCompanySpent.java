@@ -19,7 +19,7 @@ public class LimbusCompanySpent {
         );
 
         System.out.printf(
-            "Would you like to know how many pulls you could get with %d Lunacy left over?%n"
+            "\nWould you like to know how many pulls you could get with %d Lunacy left over?%n"
             + "( Y / N ) : ",
             leftover
         );
