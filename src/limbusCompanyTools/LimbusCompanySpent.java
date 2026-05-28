@@ -18,11 +18,13 @@ public class LimbusCompanySpent {
             pulls, leftover
         );
 
-        System.out.printf(
-            "\nWould you like to know how many pulls you could get with %d Lunacy left over?%n"
-            + "( Y / N ) : ",
-            leftover
-        );
+        if (leftover > 0) {
+        	System.out.printf(
+                    "\nWould you like to know how many pulls you could get with %d Lunacy left over?%n"
+                    + "( Y / N ) : ",
+                    leftover
+                );
+		} 
 
         String ans = sc.nextLine();
         if (ans.equalsIgnoreCase("Y")) {
