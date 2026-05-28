@@ -1,4 +1,4 @@
-package alrNbaIKnowUTooLazyTooOpenACalc;
+package limbusCompanyTools;
 
 import java.util.Scanner;
 
