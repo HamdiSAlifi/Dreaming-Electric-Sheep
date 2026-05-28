@@ -1,5 +1,5 @@
 package persiapanQuizADT;
-import java.util.*;
+
 public final class Buku {
 	private String ISBN, Pengarang, Judul;
 	
