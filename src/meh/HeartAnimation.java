@@ -4,11 +4,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
 
+@SuppressWarnings("serial")
 public class HeartAnimation extends JPanel {
     private double scale = 1.0;
     private boolean growing = true;
 
-    public HeartAnimation() {
+    @SuppressWarnings("unused")
+	public HeartAnimation() {
         setPreferredSize(new Dimension(400, 400));
         setBackground(Color.BLACK);
         new Timer(30, e -> {
